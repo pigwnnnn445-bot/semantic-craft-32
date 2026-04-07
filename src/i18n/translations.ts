@@ -273,6 +273,6 @@ export const translations = {
       copyright: "© 2026 Seedance. 保留所有权利。",
     },
   },
-} as const;
+};
 
-export type Translations = (typeof translations)[Lang];
+export type Translations = typeof translations.en;
