@@ -37,7 +37,7 @@ export default function HeroSection() {
           </a>
         </div>
 
-        <p className="text-sm text-muted-foreground">{t.hero.note}</p>
+        
       </div>
     </section>
   );
