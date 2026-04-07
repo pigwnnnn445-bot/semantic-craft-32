@@ -1,16 +1,37 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import SiteHeader from "@/components/SiteHeader";
+import HeroSection from "@/components/HeroSection";
+import WhatIsSection from "@/components/WhatIsSection";
+import BenefitsSection from "@/components/BenefitsSection";
+import InputsSection from "@/components/InputsSection";
+import UseCasesSection from "@/components/UseCasesSection";
+import HowToUseSection from "@/components/HowToUseSection";
+import TipsSection from "@/components/TipsSection";
+import ExamplesSection from "@/components/ExamplesSection";
+import WhyChooseSection from "@/components/WhyChooseSection";
+import FAQSection from "@/components/FAQSection";
+import CTASection from "@/components/CTASection";
+import SiteFooter from "@/components/SiteFooter";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <>
+      <SiteHeader />
+      <main>
+        <HeroSection />
+        <WhatIsSection />
+        <BenefitsSection />
+        <InputsSection />
+        <UseCasesSection />
+        <HowToUseSection />
+        <TipsSection />
+        <ExamplesSection />
+        <WhyChooseSection />
+        <FAQSection />
+        <CTASection />
+      </main>
+      <SiteFooter />
+    </>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
