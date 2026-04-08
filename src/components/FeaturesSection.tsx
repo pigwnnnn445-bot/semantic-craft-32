@@ -54,7 +54,7 @@ export default function FeaturesSection() {
                       <ul className="space-y-2 mb-8">
                         {item.bullets.map((bullet) => (
                           <li key={bullet} className="flex items-start gap-2 text-sm md:text-base text-muted-foreground">
-                            <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                            <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#c8ff00] flex-shrink-0" />
                             {bullet}
                           </li>
                         ))}
