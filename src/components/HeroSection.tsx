@@ -27,7 +27,7 @@ export default function HeroSection() {
           <span className="text-sm font-semibold text-white">Rita</span>
         </div>
 
-        <h1 id="hero-heading" className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-display leading-tight mb-6 text-white uppercase tracking-tight">
+        <h1 id="hero-heading" className="text-4xl sm:text-5xl md:text-[3.5rem] lg:text-[4.25rem] font-bold font-display leading-tight mb-6 text-white uppercase tracking-tight max-w-5xl mx-auto">
           {t.hero.h1}
         </h1>
 
