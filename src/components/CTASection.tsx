@@ -11,7 +11,7 @@ export default function CTASection() {
         </h2>
         <p className="text-muted-foreground text-lg mb-10 max-w-2xl mx-auto">{t.cta.subtitle}</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-          <a href="#how-to-use" className="inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-primary text-primary-foreground font-semibold text-base hover:opacity-90 transition-opacity">
+          <a href="https://app.seedance.ai" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-[#c8ff00] text-black font-semibold text-base hover:bg-[#d4ff33] transition-colors">
             {t.cta.btn1}
           </a>
           <a href="#examples" className="inline-flex items-center justify-center px-8 py-3.5 rounded-lg border border-border bg-secondary text-secondary-foreground font-semibold text-base hover:bg-surface-hover transition-colors">

@@ -49,7 +49,7 @@ export default function HeroSection() {
         </p>
 
         <div className="flex justify-center mb-16">
-          <a href="https://higgsfield.ai" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-white text-black font-semibold text-sm hover:bg-white/90 transition-colors">
+          <a href="https://higgsfield.ai" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-[#c8ff00] text-black font-semibold text-sm hover:bg-[#d4ff33] transition-colors">
             {t.hero.cta2}
           </a>
         </div>
