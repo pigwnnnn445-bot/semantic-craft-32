@@ -20,6 +20,8 @@ export default function ExamplesSection() {
         loop
         muted
         playsInline
+        aria-hidden="true"
+        title={`Seedance 2.0 example video ${(i % CARD_COUNT) + 1}`}
       />
     </div>
   ));
@@ -45,7 +47,9 @@ export default function ExamplesSection() {
 
       <div className="text-center mt-10">
         <a
-          href="#"
+          href="https://higgsfield.ai"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 px-8 py-3 rounded-full bg-[#c8ff00] text-black font-semibold text-sm hover:bg-[#d4ff33] transition-colors"
         >
           {t.examples.cta} →

@@ -4,7 +4,7 @@ import { useLang } from "@/i18n/LangContext";
 
 export default function FAQSection() {
   const { t } = useLang();
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
     <section aria-labelledby="faq-heading" className="py-20 md:py-28 border-t border-border">
@@ -23,16 +23,15 @@ export default function FAQSection() {
                     onClick={() => setOpenIndex(isOpen ? null : i)}
                     className="w-full flex items-center justify-between p-5 text-left font-semibold font-display text-foreground hover:text-primary transition-colors"
                     aria-expanded={isOpen}
+                    aria-controls={`faq-answer-${i}`}
                   >
                     {faq.q}
                     <ChevronDown className={`w-5 h-5 text-muted-foreground shrink-0 transition-transform ${isOpen ? "rotate-180" : ""}`} aria-hidden="true" />
                   </button>
                 </dt>
-                {isOpen && (
-                  <dd className="px-5 pb-5">
-                    <p className="text-muted-foreground text-sm leading-relaxed">{faq.a}</p>
-                  </dd>
-                )}
+                <dd id={`faq-answer-${i}`} className={isOpen ? "" : "hidden"}>
+                  <p className="px-5 pb-5 text-muted-foreground text-sm leading-relaxed">{faq.a}</p>
+                </dd>
               </div>
             );
           })}
