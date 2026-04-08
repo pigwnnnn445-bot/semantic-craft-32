@@ -10,7 +10,7 @@ export default function FAQSection() {
     <section aria-labelledby="faq-heading" className="py-20 md:py-28 border-t border-border">
       <div className="container max-w-3xl mx-auto px-4 sm:px-6">
         <h2 id="faq-heading" className="text-3xl md:text-4xl font-bold font-display text-center mb-4">
-          <span className="text-[#c8ff00]">{t.faq.headingHighlight}</span> {t.faq.heading}
+          {t.faq.headingHighlight} {t.faq.heading}
         </h2>
         <p className="text-muted-foreground text-center text-lg mb-14 max-w-2xl mx-auto">{t.faq.subtitle}</p>
         <dl className="space-y-3">
