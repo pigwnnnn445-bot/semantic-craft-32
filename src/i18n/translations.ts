@@ -227,7 +227,6 @@ export const translations = {
         { step: "步骤 3", title: "用 SEEDANCE 2.0 生成", desc: '点击"生成"按钮，几秒内获得高质量视频。' },
       ],
     },
-    },
     benefits: {
       heading: "",
       headingHighlight: "Seedance 2.0",
