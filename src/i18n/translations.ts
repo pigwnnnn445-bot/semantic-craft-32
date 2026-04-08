@@ -15,11 +15,11 @@ export const translations = {
     hero: {
       tags: ["Multi-Modal Inputs", "Native Audio", "Character Consistency", "Multi-Shot Video"],
       h1_1: "Seedance 2.0",
-      h1_2: "AI Video Generator",
+      h1_2: "Video Generation, Redefined",
       subtitle: "Create cinematic AI videos with text, images, video, and audio inputs — with native audio, better character consistency, and multi-shot storytelling.",
-      cta1: "Try Seedance 2.0",
-      cta2: "View Examples",
-      note: "Currently available in supported platforms and playground-based workflows.",
+      cta1: "Only for Business plan",
+      cta2: "Try Seedance 2.0 on Higgsfield",
+      placeholder: "Describe any visual idea. We will generate a video.",
     },
     whatIs: {
       heading: "What is",
@@ -151,11 +151,11 @@ export const translations = {
     hero: {
       tags: ["多模态输入", "原生音频", "角色一致性", "多镜头视频"],
       h1_1: "Seedance 2.0",
-      h1_2: "AI 视频生成器",
+      h1_2: "重新定义视频生成",
       subtitle: "使用文本、图片、视频和音频输入生成电影感 AI 视频，支持原生音频、更强角色一致性和多镜头叙事。",
-      cta1: "体验 Seedance 2.0",
-      cta2: "查看示例",
-      note: "当前可在已接入平台和 Playground 式工作流中体验。",
+      cta1: "仅限商业计划",
+      cta2: "在 Higgsfield 体验 Seedance 2.0",
+      placeholder: "描述任何视觉创意，我们将为您生成视频。",
     },
     whatIs: {
       heading: "什么是",
