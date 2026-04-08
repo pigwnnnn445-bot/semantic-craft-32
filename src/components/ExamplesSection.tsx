@@ -1,6 +1,6 @@
 import { useLang } from "@/i18n/LangContext";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+
 
 const EXAMPLE_VIDEO = "https://static.higgsfield.ai/kling-3/hero/hero-1.mp4";
 const CARD_COUNT = 6;
