@@ -5,12 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import WhatIsSection from "@/components/WhatIsSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import BenefitsSection from "@/components/BenefitsSection";
-import InputsSection from "@/components/InputsSection";
-import UseCasesSection from "@/components/UseCasesSection";
-import HowToUseSection from "@/components/HowToUseSection";
-import TipsSection from "@/components/TipsSection";
 import ExamplesSection from "@/components/ExamplesSection";
-import WhyChooseSection from "@/components/WhyChooseSection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import SiteFooter from "@/components/SiteFooter";
@@ -43,11 +38,6 @@ const Index = () => {
         <FeaturesSection />
         <WhatIsSection />
         <BenefitsSection />
-        <InputsSection />
-        <UseCasesSection />
-        <HowToUseSection />
-        <TipsSection />
-        <WhyChooseSection />
         <FAQSection />
         <CTASection />
       </main>
