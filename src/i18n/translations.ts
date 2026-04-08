@@ -89,7 +89,7 @@ export const translations = {
       ],
     },
     examples: {
-      heading: "examples",
+      heading: "Gallery",
       headingHighlight: "Seedance 2.0",
       subtitle: "See how different input combinations can shape the final result.",
       tags: ["Text Only", "Text + Image", "Image + Audio", "Video + Audio", "Character Story", "Multi-Shot Video"],
@@ -224,7 +224,7 @@ export const translations = {
       ],
     },
     examples: {
-      heading: "示例",
+      heading: "Gallery",
       headingHighlight: "Seedance 2.0",
       subtitle: "看看不同输入组合如何影响最终结果。",
       tags: ["仅文本", "文本 + 图片", "图片 + 音频", "视频 + 音频", "角色叙事", "多镜头视频"],
