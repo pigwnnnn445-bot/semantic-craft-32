@@ -38,13 +38,13 @@ const Index = () => {
       <SiteHeader />
       <main>
         <HeroSection />
+        <ExamplesSection />
         <WhatIsSection />
         <BenefitsSection />
         <InputsSection />
         <UseCasesSection />
         <HowToUseSection />
         <TipsSection />
-        <ExamplesSection />
         <WhyChooseSection />
         <FAQSection />
         <CTASection />
