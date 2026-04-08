@@ -220,10 +220,13 @@ export const translations = {
       ],
     },
     whatIs: {
-      heading: "什么是",
-      headingHighlight: "Seedance 2.0",
-      subtitle: "Seedance 2.0 是一款多模态 AI 视频模型，适合更丰富的叙事、更高质量的动作表现，以及带音频理解的视频生成。",
-      body: "Seedance 2.0 面向希望更精细控制视频画面、声音和叙事节奏的创作者。它支持文本、图片、视频和音频等多模态输入，适合角色驱动场景、广告风视频和多镜头叙事。相比更基础的视频模型，它更适合处理更丰富的参考素材、更连贯的场景衔接，以及带有音频理解的生成。",
+      heading: "轻松生成最长 15 秒视频",
+      steps: [
+        { step: "步骤 1", title: "上传参考图片", desc: "上传参考图片来引导你的创意方向" },
+        { step: "步骤 2", title: "编写提示词", desc: "用自然语言描述你想要的场景和声音" },
+        { step: "步骤 3", title: "用 SEEDANCE 2.0 生成", desc: '点击"生成"按钮，几秒内获得高质量视频。' },
+      ],
+    },
     },
     benefits: {
       heading: "",
