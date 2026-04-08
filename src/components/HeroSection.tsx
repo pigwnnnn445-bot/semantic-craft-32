@@ -35,10 +35,7 @@ export default function HeroSection() {
           {t.hero.subtitle}
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-          <a href="#how-to-use" className="inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-white/10 border border-white/20 text-white font-semibold text-sm hover:bg-white/20 transition-colors backdrop-blur-sm">
-            {t.hero.cta1}
-          </a>
+        <div className="flex justify-center mb-16">
           <a href="https://higgsfield.ai" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-white text-black font-semibold text-sm hover:bg-white/90 transition-colors">
             {t.hero.cta2}
           </a>
