@@ -78,7 +78,7 @@ export const translations = {
           { feature: "Availability", values: ["Open Beta (2024)", "Limited Preview Waitlist", "Limited Labs Access"] },
         ],
         footnote: "*For specific scene control.",
-        cta: "Try Seedance 2.0",
+        cta: "Try Seedance 2.0 on Rita",
       },
       reviews: {
         heading: "Seedance 2.0 Review: What Creators Are Saying",
@@ -149,7 +149,7 @@ export const translations = {
       subtitle: "See how different input combinations can shape the final result.",
       tags: ["Text Only", "Text + Image", "Image + Audio", "Video + Audio", "Character Story", "Multi-Shot Video"],
       preview: "Video preview",
-      cta: "Explore More Examples",
+      cta: "Try Seedance 2.0 on Rita",
     },
     whyChoose: {
       heading: "Why choose",
@@ -182,7 +182,7 @@ export const translations = {
       heading: "Ready to create with",
       headingHighlight: "Seedance 2.0",
       subtitle: "Turn your ideas, references, and audio into high-quality AI video.",
-      btn1: "Try Seedance 2.0",
+      btn1: "Try Seedance 2.0 on Rita",
       btn2: "See Video Examples",
       note: "Best for multimodal video generation, audio-aware workflows, and multi-shot storytelling.",
     },
@@ -276,7 +276,7 @@ export const translations = {
           { feature: "可用性", values: ["公开测试 (2024)", "有限预览候补", "有限实验室访问"] },
         ],
         footnote: "*仅限特定场景控制。",
-        cta: "试用 Seedance 2.0",
+        cta: "在 Rita 体验 Seedance 2.0",
       },
       reviews: {
         heading: "Seedance 2.0 用户评价：创作者怎么说",
@@ -347,7 +347,7 @@ export const translations = {
       subtitle: "看看不同输入组合如何影响最终结果。",
       tags: ["仅文本", "文本 + 图片", "图片 + 音频", "视频 + 音频", "角色叙事", "多镜头视频"],
       preview: "视频预览",
-      cta: "查看更多示例",
+      cta: "在 Rita 体验 Seedance 2.0",
     },
     whyChoose: {
       heading: "为什么选择",
@@ -380,7 +380,7 @@ export const translations = {
       heading: "准备开始用",
       headingHighlight: "Seedance 2.0",
       subtitle: "把你的创意、参考素材和音频输入，转换成高质量 AI 视频。",
-      btn1: "体验 Seedance 2.0",
+      btn1: "在 Rita 体验 Seedance 2.0",
       btn2: "查看视频示例",
       note: "适合多模态视频生成、带音频工作流和多镜头叙事。",
     },
