@@ -7,7 +7,7 @@ export default function CTASection() {
     <section aria-labelledby="cta-heading" className="py-20 md:py-28 border-t border-border">
       <div className="container max-w-4xl mx-auto px-4 sm:px-6 text-center">
         <h2 id="cta-heading" className="text-3xl md:text-4xl font-bold font-display mb-4">
-          {t.cta.heading} <span className="text-gradient">{t.cta.headingHighlight}</span>?
+          {t.cta.heading} <span className="text-[#c8ff00]">{t.cta.headingHighlight}</span>?
         </h2>
         <p className="text-muted-foreground text-lg mb-10 max-w-2xl mx-auto">{t.cta.subtitle}</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
