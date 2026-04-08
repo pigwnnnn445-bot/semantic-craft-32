@@ -32,6 +32,20 @@ export default function ExamplesSection() {
     return () => el.removeEventListener("scroll", checkScroll);
   }, []);
 
+  // Auto-scroll
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const timer = setInterval(() => {
+      if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 2) {
+        el.scrollTo({ left: 0, behavior: "smooth" });
+      } else {
+        el.scrollBy({ left: 320, behavior: "smooth" });
+      }
+    }, 3000);
+    return () => clearInterval(timer);
+  }, []);
+
   const scroll = (dir: "left" | "right") => {
     const el = scrollRef.current;
     if (!el) return;
