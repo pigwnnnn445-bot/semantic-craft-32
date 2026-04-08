@@ -1,5 +1,4 @@
 import { useLang } from "@/i18n/LangContext";
-import seedanceTopview from "@/assets/seedance-topview.png";
 
 export default function HeroSection() {
   const { t } = useLang();
@@ -21,9 +20,15 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6">
-        <img src={seedanceTopview} alt="Seedance × Topview" className="mx-auto mb-8 h-10" />
+        {/* Badge pill */}
+        <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/10 border border-white/15 backdrop-blur-md mb-8">
+          <span className="text-sm font-semibold text-white">Seedance 2.0</span>
+          <span className="text-white/40 text-sm">×</span>
+          <span className="text-sm font-semibold text-white">Rita</span>
+        </div>
+
         <h1 id="hero-heading" className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-display leading-tight mb-6 text-white uppercase tracking-tight">
-          {t.hero.h1_1}: {t.hero.h1_2}
+          {t.hero.h1}
         </h1>
 
         <p className="text-base md:text-lg text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed">
