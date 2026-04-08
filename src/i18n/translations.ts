@@ -17,7 +17,7 @@ export const translations = {
       h1: "Seedance 2.0: The Next Era of Video Generation",
       subtitle: "Create cinematic AI videos with text, images, video, and audio inputs — with native audio, better character consistency, and multi-shot storytelling.",
       cta1: "Only for Business plan",
-      cta2: "Try Seedance 2.0 on Higgsfield",
+      cta2: "Try Seedance 2.0 on Rita",
       placeholder: "Describe any visual idea. We will generate a video.",
     },
     whatIs: {
@@ -152,7 +152,7 @@ export const translations = {
       h1: "Seedance 2.0：视频生成的全新时代",
       subtitle: "使用文本、图片、视频和音频输入生成电影感 AI 视频，支持原生音频、更强角色一致性和多镜头叙事。",
       cta1: "仅限商业计划",
-      cta2: "在 Higgsfield 体验 Seedance 2.0",
+      cta2: "在 Rita 体验 Seedance 2.0",
       placeholder: "描述任何视觉创意，我们将为您生成视频。",
     },
     whatIs: {
