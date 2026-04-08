@@ -107,7 +107,7 @@ export default function HeroSection() {
               Generate <span className="text-base">✦</span>
             </button>
           </div>
-          </div>
+        </div>
         </div>
       </div>
     </section>
