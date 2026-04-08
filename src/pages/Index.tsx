@@ -3,6 +3,7 @@ import { useLang } from "@/i18n/LangContext";
 import SiteHeader from "@/components/SiteHeader";
 import HeroSection from "@/components/HeroSection";
 import WhatIsSection from "@/components/WhatIsSection";
+import FeaturesSection from "@/components/FeaturesSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import InputsSection from "@/components/InputsSection";
 import UseCasesSection from "@/components/UseCasesSection";
@@ -39,6 +40,7 @@ const Index = () => {
       <main>
         <HeroSection />
         <ExamplesSection />
+        <FeaturesSection />
         <WhatIsSection />
         <BenefitsSection />
         <InputsSection />
