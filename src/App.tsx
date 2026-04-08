@@ -48,7 +48,8 @@ const App = () => (
           <Routes>
             <Route path="/" element={<LangWrapper />} />
             <Route path="/zh" element={<LangWrapper />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="/video/:id" element={<VideoDetailWrapper />} />
+            <Route path="/zh/video/:id" element={<VideoDetailWrapper />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
