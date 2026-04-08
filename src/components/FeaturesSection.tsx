@@ -35,6 +35,7 @@ export default function FeaturesSection() {
                         playsInline
                         className="w-full h-full object-cover"
                         aria-hidden="true"
+                        title={`${item.title} - Seedance 2.0 demo`}
                       />
                     </div>
                   </div>
