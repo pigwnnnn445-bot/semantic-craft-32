@@ -80,6 +80,19 @@ export const translations = {
         footnote: "*For specific scene control.",
         cta: "Try Seedance 2.0",
       },
+      reviews: {
+        heading: "Seedance 2.0 Review: What Creators Are Saying",
+        subtitle: "A more controllable, multimodal, and production-ready AI video model.",
+        trusted: "Trusted by 5,000+ creators worldwide",
+        items: [
+          { title: "Finally, an AI video tool that actually listens to direction", body: "I've tested nearly every AI video generator out there. Seedance 2.0 is the first one where my reference images and prompts actually translate into the output I envisioned. The multimodal input system is a game-changer for anyone doing serious creative work.", name: "Alex Chen", initials: "AC" },
+          { title: "Delivered a client project two days early thanks to Seedance", body: "We were tasked with creating a product launch video on a tight deadline. Seedance 2.0 let us combine product shots, mood references, and a detailed prompt — and the result was polished enough for the final cut. Our client couldn't believe it was AI-generated.", name: "Daniel Harris", initials: "DH" },
+          { title: "The native audio generation sets it apart from everything else", body: "As a music video creator, the fact that Seedance 2.0 generates audio alongside video is huge. No more syncing separate tracks or dealing with mismatched timing. The audiovisual coherence is genuinely impressive.", name: "Maria Lopez", initials: "ML" },
+          { title: "It's become my go-to for quick creative work", body: "The platform is really, really solid. Sometimes I need to knock out more advanced concepts, but the trade-off is speed. For quick creative requests and even serious work, it's become my go-to.", name: "Olivia Bennett", initials: "OB" },
+          { title: "Complex motion scenes that actually hold together", body: "I do a lot of action and sports content. Most AI tools fall apart with fast movement and multi-subject scenes. Seedance 2.0 handles these surprisingly well — the motion stability is noticeably better than competitors.", name: "James Wright", initials: "JW" },
+          { title: "Saved me a ton of time on social content", body: "I recently had to produce a batch of social media shorts in a rush. Normally that's a full day of editing. With Seedance 2.0, I finished in hours — and the quality was better than what I'd have done manually.", name: "Sophia Turner", initials: "ST" },
+        ],
+      },
     },
     inputs: {
       heading: "What inputs does",
@@ -256,6 +269,19 @@ export const translations = {
         ],
         footnote: "*仅限特定场景控制。",
         cta: "试用 Seedance 2.0",
+      },
+      reviews: {
+        heading: "Seedance 2.0 用户评价：创作者怎么说",
+        subtitle: "更可控、多模态、可投入生产的 AI 视频模型。",
+        trusted: "全球 5,000+ 创作者的选择",
+        items: [
+          { title: "终于有一个能听懂创意指令的 AI 视频工具了", body: "我几乎测试过市面上所有 AI 视频生成器。Seedance 2.0 是第一个让我的参考图片和提示词真正转化为预期效果的工具。多模态输入系统对于认真做创作的人来说是颠覆性的。", name: "Alex Chen", initials: "AC" },
+          { title: "靠 Seedance 提前两天交付了客户项目", body: "我们需要在紧迫的截止日期内制作一个产品发布视频。Seedance 2.0 让我们能将产品照片、情绪参考和详细提示词结合在一起——成品质量足以直接用于最终版本。客户简直不敢相信这是 AI 生成的。", name: "Daniel Harris", initials: "DH" },
+          { title: "原生音频生成让它与其他产品完全不同", body: "作为一个音乐视频创作者，Seedance 2.0 能同时生成音频和视频这一点非常重要。不再需要单独同步音轨或处理时间不匹配的问题。音画一致性真的令人印象深刻。", name: "Maria Lopez", initials: "ML" },
+          { title: "它已经成为我快速创作的首选工具", body: "这个平台真的非常扎实。有时候我需要做更高级的概念，但速度上的优势弥补了一切。无论是快速创意需求还是正经项目，它都是我的首选。", name: "Olivia Bennett", initials: "OB" },
+          { title: "复杂运动场景终于不再崩了", body: "我经常做动作和体育类内容。大多数 AI 工具在快速运动和多主体场景下都会崩溃。Seedance 2.0 在这方面表现出奇的好——运动稳定性明显优于竞品。", name: "James Wright", initials: "JW" },
+          { title: "社媒内容制作省了我大量时间", body: "我最近需要紧急制作一批社交媒体短视频。正常情况下这需要一整天的剪辑。用 Seedance 2.0，我几小时就完成了——而且质量比手动制作还好。", name: "Sophia Turner", initials: "ST" },
+        ],
       },
     },
     inputs: {
