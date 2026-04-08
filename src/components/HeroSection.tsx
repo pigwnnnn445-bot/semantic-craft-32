@@ -1,4 +1,5 @@
 import { useLang } from "@/i18n/LangContext";
+import seedanceTopview from "@/assets/seedance-topview.png";
 
 export default function HeroSection() {
   const { t } = useLang();
@@ -20,6 +21,7 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6">
+        <img src={seedanceTopview} alt="Seedance × Topview" className="mx-auto mb-8 h-10" />
         <h1 id="hero-heading" className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-display leading-tight mb-6 text-white uppercase tracking-tight">
           {t.hero.h1_1}: {t.hero.h1_2}
         </h1>
