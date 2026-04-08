@@ -11,7 +11,7 @@ import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
 
-function LangWrapper({ children }: { children?: React.ReactNode }) {
+function LangWrapper() {
   const { pathname } = useLocation();
   const currentLang: Lang = pathname.startsWith("/zh") ? "zh" : "en";
   const t = translations[currentLang];
@@ -19,20 +19,7 @@ function LangWrapper({ children }: { children?: React.ReactNode }) {
 
   return (
     <LangContext.Provider value={{ lang: currentLang, t, otherLangPath }}>
-      {children ?? <Index />}
-    </LangContext.Provider>
-  );
-}
-
-function VideoDetailWrapper() {
-  const { pathname } = useLocation();
-  const currentLang: Lang = pathname.startsWith("/zh") ? "zh" : "en";
-  const t = translations[currentLang];
-  const otherLangPath = currentLang === "en" ? "/zh" : "/";
-
-  return (
-    <LangContext.Provider value={{ lang: currentLang, t, otherLangPath }}>
-      <VideoDetail />
+      <Index />
     </LangContext.Provider>
   );
 }
@@ -47,8 +34,6 @@ const App = () => (
           <Routes>
             <Route path="/" element={<LangWrapper />} />
             <Route path="/zh" element={<LangWrapper />} />
-            <Route path="/video/:id" element={<VideoDetailWrapper />} />
-            <Route path="/zh/video/:id" element={<VideoDetailWrapper />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
