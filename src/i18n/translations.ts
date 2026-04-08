@@ -189,6 +189,14 @@ export const translations = {
     footer: {
       tagline: "Multimodal AI video generation.",
       copyright: "© 2026 Seedance. All rights reserved.",
+      productsHeading: "AI Video Models",
+      langHeading: "Language",
+      products: [
+        { name: "Seedance 2.0", path: "/" },
+        { name: "Seedance 1.5", path: "/seedance-1-5" },
+        { name: "Kling 3.0", path: "/kling-3" },
+        { name: "Kling 3.0 Motion Control", path: "/kling-3-motion-control" },
+      ],
     },
   },
   zh: {
@@ -379,6 +387,14 @@ export const translations = {
     footer: {
       tagline: "多模态 AI 视频生成。",
       copyright: "© 2026 Seedance. 保留所有权利。",
+      productsHeading: "AI 视频模型",
+      langHeading: "语言",
+      products: [
+        { name: "Seedance 2.0", path: "/zh" },
+        { name: "Seedance 1.5", path: "/zh/seedance-1-5" },
+        { name: "Kling 3.0", path: "/zh/kling-3" },
+        { name: "Kling 3.0 Motion Control", path: "/zh/kling-3-motion-control" },
+      ],
     },
   },
 };
