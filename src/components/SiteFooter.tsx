@@ -8,14 +8,7 @@ export default function SiteFooter() {
   return (
     <footer className="border-t border-border py-16">
       <div className="container max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
-          {/* Brand */}
-          <div>
-            <Link to={lang === "en" ? "/" : "/zh"} className="text-xl font-bold font-display text-foreground">
-              Seedance
-            </Link>
-            <p className="text-sm text-muted-foreground mt-2 max-w-xs">{t.footer.tagline}</p>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8">
 
           {/* Product Links */}
           <div>
