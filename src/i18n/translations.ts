@@ -14,8 +14,7 @@ export const translations = {
     },
     hero: {
       tags: ["Multi-Modal Inputs", "Native Audio", "Character Consistency", "Multi-Shot Video"],
-      h1_1: "Seedance 2.0",
-      h1_2: "Video Generation, Redefined",
+      h1: "Seedance 2.0 AI Video Generator for High-Quality Video Creation",
       subtitle: "Create cinematic AI videos with text, images, video, and audio inputs — with native audio, better character consistency, and multi-shot storytelling.",
       cta1: "Only for Business plan",
       cta2: "Try Seedance 2.0 on Higgsfield",
@@ -150,8 +149,7 @@ export const translations = {
     },
     hero: {
       tags: ["多模态输入", "原生音频", "角色一致性", "多镜头视频"],
-      h1_1: "Seedance 2.0",
-      h1_2: "重新定义视频生成",
+      h1: "Seedance 2.0 AI 视频生成器 — 高质量视频创作",
       subtitle: "使用文本、图片、视频和音频输入生成电影感 AI 视频，支持原生音频、更强角色一致性和多镜头叙事。",
       cta1: "仅限商业计划",
       cta2: "在 Higgsfield 体验 Seedance 2.0",
