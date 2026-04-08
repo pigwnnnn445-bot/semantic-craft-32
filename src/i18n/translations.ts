@@ -22,13 +22,33 @@ export const translations = {
     },
     features: {
       heading: "WHY SEEDANCE 2.0 STANDS OUT",
-      subtitleBold: "One model for the entire pipeline.",
-      subtitleRest: "From text and references to multi-shot video with synchronized audio, consistent characters, and cinematic camera control.",
+      subtitle: "Seedance 2.0 brings multimodal inputs, native audio-visual generation, richer creative control, and stronger performance in complex motion into a single video creation workflow.",
+      cta: "Try Seedance 2.0",
       items: [
-        { title: "Unified Multimodal Inputs", desc: "Use text, images, video, and audio together in one generation flow." },
-        { title: "Native Audio-Visual Generation", desc: "Generate video and audio together for a more complete final output." },
-        { title: "Director-Level Control", desc: "Shape performance, lighting, shadow, and camera movement with richer references." },
-        { title: "Complex Motion Performance", desc: "Handle fast action, interaction, and dynamic motion with greater stability." },
+        {
+          title: "Unified Multimodal Inputs",
+          subtitle: "Create with text, images, video, and audio in one unified workflow.",
+          body: "Seedance 2.0 is built for multimodal video creation. Instead of relying on prompts alone, it can combine text, image, video, and audio inputs in one generation flow. This gives creators more ways to shape motion, composition, scene direction, and overall output quality.",
+          bullets: ["Text prompts for scene direction", "Image references for visual guidance", "Video and audio inputs for richer control"],
+        },
+        {
+          title: "Native Audio-Visual Generation",
+          subtitle: "Generate video and audio together for a more complete final output.",
+          body: "Seedance 2.0 is designed for audio-visual generation rather than silent video creation alone. That means sound is not treated as a separate afterthought, but as part of the generation itself. This makes the model better suited for scenes with dialogue, ambience, rhythm, and stronger audiovisual immersion.",
+          bullets: ["Better audiovisual immersion", "More natural dialogue and ambience", "Stronger rhythm and sound alignment"],
+        },
+        {
+          title: "Director-Level Control",
+          subtitle: "Guide motion, lighting, framing, and camera language with richer references.",
+          body: "Seedance 2.0 gives creators more control through reference-based generation. With text, image, audio, and video references working together, it becomes easier to guide performance, scene mood, visual rhythm, lighting style, and camera movement toward a more intentional result.",
+          bullets: ["Reference-driven performance control", "Better camera and framing guidance", "More intentional cinematic direction"],
+        },
+        {
+          title: "Complex Motion Performance",
+          subtitle: "Handle fast action, dynamic movement, and interaction with greater stability.",
+          body: "Seedance 2.0 is built to perform better in difficult motion heavy scenes. It is more suitable for content that involves fast body movement, multi-subject interaction, vehicles, action sequences, and physically demanding motion.",
+          bullets: ["More stable fast motion", "Better multi-subject interaction", "Stronger physical plausibility"],
+        },
       ],
     },
     whatIs: {
