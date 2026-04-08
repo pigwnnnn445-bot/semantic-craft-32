@@ -28,14 +28,16 @@ export default function ExamplesSection() {
           aria-hidden="true"
           title={`Seedance 2.0 example video ${videoId}`}
         />
-        <Link
-          to={`${basePath}/video/${videoId}`}
+        <a
+          href="https://higgsfield.ai"
+          target="_blank"
+          rel="noopener noreferrer"
           className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         >
           <span className="px-6 py-2.5 rounded-full bg-[#c8ff00] text-black font-semibold text-sm hover:bg-[#d4ff33] transition-colors">
             {lang === "zh" ? "做同款" : "Make Similar"}
           </span>
-        </Link>
+        </a>
       </div>
     );
   });
