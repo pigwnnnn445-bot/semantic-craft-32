@@ -2,18 +2,18 @@ import { useLang } from "@/i18n/LangContext";
 import { Link } from "react-router-dom";
 
 export default function SiteHeader() {
-  const { t, otherLangPath } = useLang();
+  const { t, lang, otherLangPath } = useLang();
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-transparent">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
-        <a href="/" className="flex items-center gap-2" aria-label="Seedance home">
-          <img src="https://static.higgsfield.ai/kling-3/logo.svg" alt="Seedance" className="h-7 invert" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextElementSibling?.classList.remove('hidden'); }} />
+        <a href={lang === "en" ? "/" : "/zh"} className="flex items-center gap-2" aria-label="Seedance home">
+          <img src="https://static.higgsfield.ai/kling-3/logo.svg" alt="Seedance logo" width={100} height={28} className="h-7 invert" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextElementSibling?.classList.remove('hidden'); }} />
           <span className="text-lg font-bold font-display text-white hidden">Seedance</span>
         </a>
         <nav aria-label="Main navigation">
           <ul className="hidden md:flex items-center gap-8 text-sm font-medium text-white/70">
-            <li><a href="#how-to-use" className="hover:text-white transition-colors">{t.nav.howItWorks}</a></li>
+            <li><a href="#features-heading" className="hover:text-white transition-colors">{t.nav.howItWorks}</a></li>
             <li><a href="#examples" className="hover:text-white transition-colors">{t.nav.examples}</a></li>
             <li><a href="#faq-heading" className="hover:text-white transition-colors">{t.nav.faq}</a></li>
           </ul>

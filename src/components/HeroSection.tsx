@@ -1,6 +1,6 @@
 import { useLang } from "@/i18n/LangContext";
 import { useState, useRef } from "react";
-import { Upload, X, Image as ImageIcon } from "lucide-react";
+import { X, Image as ImageIcon } from "lucide-react";
 
 export default function HeroSection() {
   const { t } = useLang();
@@ -30,6 +30,8 @@ export default function HeroSection() {
         muted
         playsInline
         aria-hidden="true"
+        poster="https://static.higgsfield.ai/kling-3/hero/hero-1-poster.jpg"
+        title="Seedance 2.0 AI video generation demo"
       />
       <div className="absolute inset-0 bg-black/50" aria-hidden="true" />
 
@@ -66,13 +68,15 @@ export default function HeroSection() {
                   accept="image/*"
                   className="hidden"
                   onChange={handleFile}
+                  aria-label="Upload reference image"
                 />
                 {preview ? (
                   <div className="relative w-[120px] h-[100px]">
-                    <img src={preview} alt="Upload preview" className="w-full h-full object-cover" />
+                    <img src={preview} alt="Uploaded reference preview" width={120} height={100} className="w-full h-full object-cover" />
                     <button
                       onClick={clearImage}
                       className="absolute top-1.5 right-1.5 p-0.5 rounded-full bg-black/60 text-white hover:bg-black/80 transition-colors"
+                      aria-label="Remove uploaded image"
                     >
                       <X className="w-3.5 h-3.5" />
                     </button>
@@ -81,10 +85,11 @@ export default function HeroSection() {
                   <button
                     onClick={() => fileRef.current?.click()}
                     className="w-[120px] h-[100px] flex flex-col items-center justify-center gap-1.5 text-white/50 hover:text-white/70 hover:bg-white/5 transition-colors"
+                    aria-label="Add reference image"
                   >
                     <div className="relative">
-                      <ImageIcon className="w-6 h-6" />
-                      <span className="absolute -bottom-0.5 -right-1.5 text-xs leading-none">+</span>
+                      <ImageIcon className="w-6 h-6" aria-hidden="true" />
+                      <span className="absolute -bottom-0.5 -right-1.5 text-xs leading-none" aria-hidden="true">+</span>
                     </div>
                     <span className="text-[11px] leading-tight text-center">Add Reference<br/>Image</span>
                   </button>
@@ -93,7 +98,9 @@ export default function HeroSection() {
 
               {/* Text input */}
               <div className="flex-1 p-4">
+                <label htmlFor="hero-prompt" className="sr-only">Video prompt</label>
                 <textarea
+                  id="hero-prompt"
                   placeholder={t.hero.placeholder}
                   className="w-full h-[68px] bg-transparent text-white/90 text-sm placeholder:text-white/50 resize-none focus:outline-none"
                 />
@@ -104,7 +111,7 @@ export default function HeroSection() {
           {/* Generate button below the input box */}
           <div className="mt-4">
             <button className="w-full py-3 rounded-lg bg-[#c8ff00] text-black text-sm font-semibold hover:bg-[#d4ff33] transition-colors flex items-center justify-center gap-1.5">
-              Generate <span className="text-base">✦</span>
+              Generate <span className="text-base" aria-hidden="true">✦</span>
             </button>
           </div>
         </div>
