@@ -52,10 +52,12 @@ export const translations = {
       ],
     },
     whatIs: {
-      heading: "What is",
-      headingHighlight: "Seedance 2.0",
-      subtitle: "Seedance 2.0 is a multimodal AI video model designed for richer storytelling, better motion quality, and audio-aware video generation.",
-      body: "Seedance 2.0 is built for creators who want more control over how AI videos look, sound, and flow. It supports multimodal inputs such as text, images, video, and audio, making it a strong choice for character-driven scenes, ad-style videos, and multi-shot storytelling. Compared with simpler video models, it is better suited for richer references, more coherent scenes, and audio-aware generation.",
+      heading: "EASILY GENERATE VIDEOS UP TO 15 SEC",
+      steps: [
+        { step: "STEP 1", title: "INPUT IMAGE REFERENCE", desc: "Upload reference images to guide your vision" },
+        { step: "STEP 2", title: "WRITE THE PROMPT", desc: "Use natural language to describe desired scenario and sounds" },
+        { step: "STEP 3", title: "GENERATE WITH SEEDANCE 2.0", desc: 'Click "Generate" button and Receive high-fidelity video in seconds.' },
+      ],
     },
     benefits: {
       heading: "Key Benefits of",
