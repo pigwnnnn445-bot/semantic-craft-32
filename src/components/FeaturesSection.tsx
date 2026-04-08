@@ -65,7 +65,7 @@ export default function FeaturesSection() {
                         href="https://app.seedance.ai"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block px-6 py-2.5 border-2 border-primary text-primary font-semibold text-sm rounded-md hover:bg-primary hover:text-primary-foreground transition-colors"
+                        className="inline-flex items-center gap-1.5 px-8 py-3 rounded-full bg-[#c8ff00] text-black font-semibold text-sm hover:bg-[#d4ff33] transition-colors"
                       >
                         {t.features.cta}
                       </a>
