@@ -12,7 +12,7 @@ import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
 
-function LangWrapper() {
+function LangWrapper({ children }: { children?: React.ReactNode }) {
   const { pathname } = useLocation();
   const currentLang: Lang = pathname.startsWith("/zh") ? "zh" : "en";
   const t = translations[currentLang];
@@ -20,7 +20,20 @@ function LangWrapper() {
 
   return (
     <LangContext.Provider value={{ lang: currentLang, t, otherLangPath }}>
-      <Index />
+      {children ?? <Index />}
+    </LangContext.Provider>
+  );
+}
+
+function VideoDetailWrapper() {
+  const { pathname } = useLocation();
+  const currentLang: Lang = pathname.startsWith("/zh") ? "zh" : "en";
+  const t = translations[currentLang];
+  const otherLangPath = currentLang === "en" ? "/zh" : "/";
+
+  return (
+    <LangContext.Provider value={{ lang: currentLang, t, otherLangPath }}>
+      <VideoDetail />
     </LangContext.Provider>
   );
 }
