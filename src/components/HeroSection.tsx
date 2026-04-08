@@ -99,13 +99,13 @@ export default function HeroSection() {
                 />
               </div>
             </div>
+          </div>
 
-            {/* Generate button */}
-            <div className="px-4 pb-4">
-              <button className="w-full py-3 rounded-lg bg-gradient-to-r from-[#ff2d95] to-[#ff45a0] text-white text-sm font-semibold hover:from-[#ff45a0] hover:to-[#ff5cb1] transition-all">
-                Join Waitlist
-              </button>
-            </div>
+          {/* Generate button below the input box */}
+          <div className="mt-4">
+            <button className="w-full py-3 rounded-lg bg-[#c8ff00] text-black text-sm font-semibold hover:bg-[#d4ff33] transition-colors flex items-center justify-center gap-1.5">
+              Generate <span className="text-base">✦</span>
+            </button>
           </div>
         </div>
       </div>
