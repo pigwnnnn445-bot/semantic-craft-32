@@ -20,6 +20,17 @@ export const translations = {
       cta2: "Try Seedance 2.0 on Rita",
       placeholder: "Describe any visual idea. We will generate a video.",
     },
+    features: {
+      heading: "WHY SEEDANCE 2.0 STANDS OUT",
+      subtitleBold: "One model for the entire pipeline.",
+      subtitleRest: "From text and references to multi-shot video with synchronized audio, consistent characters, and cinematic camera control.",
+      items: [
+        { title: "Unified Multimodal Inputs", desc: "Use text, images, video, and audio together in one generation flow." },
+        { title: "Native Audio-Visual Generation", desc: "Generate video and audio together for a more complete final output." },
+        { title: "Director-Level Control", desc: "Shape performance, lighting, shadow, and camera movement with richer references." },
+        { title: "Complex Motion Performance", desc: "Handle fast action, interaction, and dynamic motion with greater stability." },
+      ],
+    },
     whatIs: {
       heading: "What is",
       headingHighlight: "Seedance 2.0",
