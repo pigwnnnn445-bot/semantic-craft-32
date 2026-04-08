@@ -20,6 +20,17 @@ export const translations = {
       cta2: "Try Seedance 2.0 on Rita",
       placeholder: "Describe any visual idea. We will generate a video.",
     },
+    features: {
+      heading: "WHY SEEDANCE 2.0 STANDS OUT",
+      subtitleBold: "One model for the entire pipeline.",
+      subtitleRest: "From text and references to multi-shot video with synchronized audio, consistent characters, and cinematic camera control.",
+      items: [
+        { title: "Unified Multimodal Inputs", desc: "Use text, images, video, and audio together in one generation flow." },
+        { title: "Native Audio-Visual Generation", desc: "Generate video and audio together for a more complete final output." },
+        { title: "Director-Level Control", desc: "Shape performance, lighting, shadow, and camera movement with richer references." },
+        { title: "Complex Motion Performance", desc: "Handle fast action, interaction, and dynamic motion with greater stability." },
+      ],
+    },
     whatIs: {
       heading: "What is",
       headingHighlight: "Seedance 2.0",
@@ -154,6 +165,17 @@ export const translations = {
       
       cta2: "在 Rita 体验 Seedance 2.0",
       placeholder: "描述任何视觉创意，我们将为您生成视频。",
+    },
+    features: {
+      heading: "WHY SEEDANCE 2.0 STANDS OUT",
+      subtitleBold: "一个模型覆盖全流程。",
+      subtitleRest: "从文本和参考素材到多镜头视频，支持同步音频、角色一致性和电影感镜头控制。",
+      items: [
+        { title: "统一多模态输入", desc: "在一次生成流程中同时使用文本、图片、视频和音频。" },
+        { title: "原生音视频生成", desc: "同时生成视频和音频，输出更完整。" },
+        { title: "导演级控制", desc: "通过更丰富的参考素材控制表演、光影和镜头运动。" },
+        { title: "复杂运动表现", desc: "更稳定地处理快速动作、交互和动态运动。" },
+      ],
     },
     whatIs: {
       heading: "什么是",
