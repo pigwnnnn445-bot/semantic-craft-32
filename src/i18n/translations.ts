@@ -23,7 +23,7 @@ export const translations = {
     features: {
       heading: "WHY SEEDANCE 2.0 STANDS OUT",
       subtitle: "Seedance 2.0 brings multimodal inputs, native audio-visual generation, richer creative control, and stronger performance in complex motion into a single video creation workflow.",
-      cta: "Try Seedance 2.0",
+      cta: "Try Seedance 2.0 on Rita",
       items: [
         {
           title: "Unified Multimodal Inputs",
@@ -189,7 +189,7 @@ export const translations = {
     features: {
       heading: "WHY SEEDANCE 2.0 STANDS OUT",
       subtitle: "Seedance 2.0 将多模态输入、原生音视频生成、更丰富的创意控制和更强的复杂运动表现融入单一视频创作工作流。",
-      cta: "体验 Seedance 2.0",
+      cta: "在 Rita 体验 Seedance 2.0",
       items: [
         {
           title: "统一多模态输入",
