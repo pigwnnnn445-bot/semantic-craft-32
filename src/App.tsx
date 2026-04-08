@@ -7,6 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { LangContext } from "@/i18n/LangContext";
 import { translations, type Lang } from "@/i18n/translations";
 import Index from "./pages/Index.tsx";
+import VideoDetail from "./pages/VideoDetail.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
