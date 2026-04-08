@@ -8,7 +8,7 @@ export default function SiteFooter() {
   return (
     <footer className="border-t border-border py-16">
       <div className="container max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8 max-w-2xl mx-auto">
 
           {/* Product Links */}
           <div>
