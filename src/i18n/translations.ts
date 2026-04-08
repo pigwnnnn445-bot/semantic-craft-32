@@ -22,13 +22,33 @@ export const translations = {
     },
     features: {
       heading: "WHY SEEDANCE 2.0 STANDS OUT",
-      subtitleBold: "One model for the entire pipeline.",
-      subtitleRest: "From text and references to multi-shot video with synchronized audio, consistent characters, and cinematic camera control.",
+      subtitle: "Seedance 2.0 brings multimodal inputs, native audio-visual generation, richer creative control, and stronger performance in complex motion into a single video creation workflow.",
+      cta: "Try Seedance 2.0",
       items: [
-        { title: "Unified Multimodal Inputs", desc: "Use text, images, video, and audio together in one generation flow." },
-        { title: "Native Audio-Visual Generation", desc: "Generate video and audio together for a more complete final output." },
-        { title: "Director-Level Control", desc: "Shape performance, lighting, shadow, and camera movement with richer references." },
-        { title: "Complex Motion Performance", desc: "Handle fast action, interaction, and dynamic motion with greater stability." },
+        {
+          title: "Unified Multimodal Inputs",
+          subtitle: "Create with text, images, video, and audio in one unified workflow.",
+          body: "Seedance 2.0 is built for multimodal video creation. Instead of relying on prompts alone, it can combine text, image, video, and audio inputs in one generation flow. This gives creators more ways to shape motion, composition, scene direction, and overall output quality.",
+          bullets: ["Text prompts for scene direction", "Image references for visual guidance", "Video and audio inputs for richer control"],
+        },
+        {
+          title: "Native Audio-Visual Generation",
+          subtitle: "Generate video and audio together for a more complete final output.",
+          body: "Seedance 2.0 is designed for audio-visual generation rather than silent video creation alone. That means sound is not treated as a separate afterthought, but as part of the generation itself. This makes the model better suited for scenes with dialogue, ambience, rhythm, and stronger audiovisual immersion.",
+          bullets: ["Better audiovisual immersion", "More natural dialogue and ambience", "Stronger rhythm and sound alignment"],
+        },
+        {
+          title: "Director-Level Control",
+          subtitle: "Guide motion, lighting, framing, and camera language with richer references.",
+          body: "Seedance 2.0 gives creators more control through reference-based generation. With text, image, audio, and video references working together, it becomes easier to guide performance, scene mood, visual rhythm, lighting style, and camera movement toward a more intentional result.",
+          bullets: ["Reference-driven performance control", "Better camera and framing guidance", "More intentional cinematic direction"],
+        },
+        {
+          title: "Complex Motion Performance",
+          subtitle: "Handle fast action, dynamic movement, and interaction with greater stability.",
+          body: "Seedance 2.0 is built to perform better in difficult motion heavy scenes. It is more suitable for content that involves fast body movement, multi-subject interaction, vehicles, action sequences, and physically demanding motion.",
+          bullets: ["More stable fast motion", "Better multi-subject interaction", "Stronger physical plausibility"],
+        },
       ],
     },
     whatIs: {
@@ -168,13 +188,33 @@ export const translations = {
     },
     features: {
       heading: "WHY SEEDANCE 2.0 STANDS OUT",
-      subtitleBold: "一个模型覆盖全流程。",
-      subtitleRest: "从文本和参考素材到多镜头视频，支持同步音频、角色一致性和电影感镜头控制。",
+      subtitle: "Seedance 2.0 将多模态输入、原生音视频生成、更丰富的创意控制和更强的复杂运动表现融入单一视频创作工作流。",
+      cta: "体验 Seedance 2.0",
       items: [
-        { title: "统一多模态输入", desc: "在一次生成流程中同时使用文本、图片、视频和音频。" },
-        { title: "原生音视频生成", desc: "同时生成视频和音频，输出更完整。" },
-        { title: "导演级控制", desc: "通过更丰富的参考素材控制表演、光影和镜头运动。" },
-        { title: "复杂运动表现", desc: "更稳定地处理快速动作、交互和动态运动。" },
+        {
+          title: "统一多模态输入",
+          subtitle: "在一个统一工作流中使用文本、图片、视频和音频进行创作。",
+          body: "Seedance 2.0 专为多模态视频创作而设计。它可以在一次生成流程中组合文本、图片、视频和音频输入，为创作者提供更多方式来控制运动、构图、场景方向和整体输出质量。",
+          bullets: ["文本提示词引导场景方向", "图片参考提供视觉引导", "视频和音频输入实现更丰富的控制"],
+        },
+        {
+          title: "原生音视频生成",
+          subtitle: "同时生成视频和音频，输出更完整。",
+          body: "Seedance 2.0 专为音视频生成而设计，而非仅仅是无声视频创作。声音不是独立的后期处理，而是生成过程的一部分。这使模型更适合包含对话、环境音、节奏和沉浸感的场景。",
+          bullets: ["更好的音视频沉浸感", "更自然的对话和环境音", "更强的节奏和声音对齐"],
+        },
+        {
+          title: "导演级控制",
+          subtitle: "通过更丰富的参考素材引导运动、光影、构图和镜头语言。",
+          body: "Seedance 2.0 通过基于参考素材的生成为创作者提供更多控制。文本、图片、音频和视频参考协同工作，更容易引导表演、场景氛围、视觉节奏、光影风格和镜头运动。",
+          bullets: ["参考素材驱动的表演控制", "更好的镜头和构图引导", "更有意图的电影感方向"],
+        },
+        {
+          title: "复杂运动表现",
+          subtitle: "更稳定地处理快速动作、动态运动和交互。",
+          body: "Seedance 2.0 在高难度运动场景中表现更好。它更适合涉及快速身体运动、多主体交互、载具、动作序列和高强度物理运动的内容。",
+          bullets: ["更稳定的快速运动", "更好的多主体交互", "更强的物理合理性"],
+        },
       ],
     },
     whatIs: {
