@@ -75,7 +75,7 @@ export const translations = {
           { feature: "References", values: ["Images, video, audio", "Images, video workflows", "Reference asset images"] },
           { feature: "Editing Workflows", values: ["Editing and video continuation", "Edits, character consistency, and extensions", "Extend videos and first-and-last-frame generation"] },
           { feature: "Official Focus", values: ["Multimodal control and native audio-video generation", "Realism, control, and synced sound", "Native audio, realism, and prompt adherence"] },
-          { feature: "Availability", values: ["Official launch", "Available in Sora app", "GA on Vertex AI"] },
+          
         ],
         footnote: "",
         cta: "Try Seedance 2.0 Free on Rita",
@@ -274,7 +274,7 @@ export const translations = {
           { feature: "参考输入", values: ["图片、视频、音频", "图片、视频工作流", "参考资产图片"] },
           { feature: "编辑能力", values: ["支持编辑与视频续写", "支持编辑、角色一致性与视频续写", "支持视频续写与首尾帧生成"] },
           { feature: "官方主打方向", values: ["多模态控制与原生音视频生成", "真实感、可控性与同步声音", "原生音频、真实感与提示词遵循"] },
-          { feature: "可用状态", values: ["正式发布", "已可在 Sora 应用中使用", "已在 Vertex AI 正式可用"] },
+          
         ],
         footnote: "",
         cta: "免费体验 Seedance 2.0",
