@@ -3,8 +3,8 @@ export type Lang = "en" | "zh";
 export const translations = {
   en: {
     lang: "en",
-    siteTitle: "Seedance 2.0 AI Video Generator — Multimodal Text, Image & Audio to Video",
-    siteDescription: "Create cinematic AI videos with Seedance 2.0. Combine text, images, video, and audio inputs for native audio co-generation, character consistency, and multi-shot storytelling.",
+    siteTitle: "Seedance 2.0 AI Video Generator | Free AI Video Generation Tool by ByteDance",
+    siteDescription: "Seedance 2.0 is a free AI video generator and AI video model by ByteDance. Create cinematic AI videos from text, images & audio with native audio generation, character consistency, and multi-shot storytelling. Try Seedance 2.0 free today.",
     nav: {
       howItWorks: "How It Works",
       examples: "Examples",
@@ -14,21 +14,21 @@ export const translations = {
     },
     hero: {
       tags: ["Multi-Modal Inputs", "Native Audio", "Character Consistency", "Multi-Shot Video"],
-      h1: "Seedance 2.0: The Next Era of Video Generation",
-      subtitle: "Create cinematic AI videos with text, images, video, and audio inputs — with native audio, better character consistency, and multi-shot storytelling.",
+      h1: "Seedance 2.0: Free AI Video Generator by ByteDance",
+      subtitle: "Seedance 2.0 is a free AI video generation tool that creates cinematic videos from text, images, video, and audio inputs — with native audio, character consistency, and multi-shot storytelling.",
       
-      cta2: "Try Seedance 2.0 on Rita",
+      cta2: "Try Seedance 2.0 Free on Rita",
       placeholder: "Describe any visual idea. We will generate a video.",
     },
     features: {
-      heading: "WHY SEEDANCE 2.0 STANDS OUT",
-      subtitle: "Seedance 2.0 brings multimodal inputs, native audio-visual generation, richer creative control, and stronger performance in complex motion into a single video creation workflow.",
-      cta: "Try Seedance 2.0 on Rita",
+      heading: "WHY SEEDANCE 2.0 AI VIDEO MODEL STANDS OUT",
+      subtitle: "As a leading AI video generation tool, Seedance 2.0 brings multimodal inputs, native audio-visual generation, richer creative control, and stronger complex motion performance into a single workflow.",
+      cta: "Try Seedance 2.0 Free on Rita",
       items: [
         {
           title: "Unified Multimodal Inputs",
           subtitle: "Create with text, images, video, and audio in one unified workflow.",
-          body: "Seedance 2.0 is built for multimodal video creation. Instead of relying on prompts alone, it can combine text, image, video, and audio inputs in one generation flow. This gives creators more ways to shape motion, composition, scene direction, and overall output quality.",
+          body: "Seedance 2.0 AI video generator is built for multimodal video creation. Instead of relying on prompts alone, this AI video tool can combine text, image, video, and audio inputs in one generation flow — giving creators more ways to shape motion, composition, scene direction, and overall output quality.",
           bullets: ["Text prompts for scene direction", "Image references for visual guidance", "Video and audio inputs for richer control"],
         },
         {
@@ -52,17 +52,17 @@ export const translations = {
       ],
     },
     whatIs: {
-      heading: "EASILY GENERATE VIDEOS UP TO 15 SEC",
+      heading: "SEEDANCE 2.0 AI VIDEO GENERATION IN 3 STEPS",
       steps: [
         { step: "STEP 1", title: "INPUT IMAGE REFERENCE", desc: "Upload reference images to guide your vision" },
         { step: "STEP 2", title: "WRITE THE PROMPT", desc: "Use natural language to describe desired scenario and sounds" },
-        { step: "STEP 3", title: "GENERATE WITH SEEDANCE 2.0", desc: 'Click "Generate" button and Receive high-fidelity video in seconds.' },
+        { step: "STEP 3", title: "GENERATE WITH SEEDANCE 2.0", desc: 'Click "Generate" and receive high-fidelity AI video in seconds — completely free.' },
       ],
     },
     benefits: {
       comparison: {
-        heading: "SEEDANCE 2.0 VS. SORA VS. VEO 3",
-        subtitle: "See how Seedance 2.0 compares against Sora and Veo with our detailed comparison table.",
+        heading: "SEEDANCE 2.0 AI VIDEO GENERATOR VS. SORA VS. VEO 3",
+        subtitle: "See how Seedance 2.0 AI video model compares against Sora and Veo 3 in our detailed comparison.",
         featureLabel: "Feature",
         products: [
           { name: "Seedance 2.0", company: "" },
@@ -78,11 +78,11 @@ export const translations = {
           { feature: "Availability", values: ["Open Beta (2024)", "Limited Preview Waitlist", "Limited Labs Access"] },
         ],
         footnote: "*For specific scene control.",
-        cta: "Try Seedance 2.0 on Rita",
+        cta: "Try Seedance 2.0 Free on Rita",
       },
       reviews: {
-        heading: "Seedance 2.0 Review: What Creators Are Saying",
-        subtitle: "A more controllable, multimodal, and production-ready AI video model.",
+        heading: "Seedance 2.0 AI Video Tool Review: What Creators Are Saying",
+        subtitle: "A more controllable, multimodal, and production-ready AI video generation model.",
         trusted: "Trusted by 5,000+ creators worldwide",
         items: [
           { title: "Finally, an AI video tool that actually listens to direction", body: "I've tested nearly every AI video generator out there. Seedance 2.0 is the first one where my reference images and prompts actually translate into the output I envisioned. The multimodal input system is a game-changer for anyone doing serious creative work.", name: "Alex Chen", initials: "AC" },
@@ -146,10 +146,10 @@ export const translations = {
     examples: {
       heading: "Gallery",
       headingHighlight: "Seedance 2.0",
-      subtitle: "See how different input combinations can shape the final result.",
+      subtitle: "See Seedance 2.0 AI videos generated from different input combinations.",
       tags: ["Text Only", "Text + Image", "Image + Audio", "Video + Audio", "Character Story", "Multi-Shot Video"],
       preview: "Video preview",
-      cta: "Try Seedance 2.0 on Rita",
+      cta: "Try Seedance 2.0 Free on Rita",
     },
     whyChoose: {
       heading: "Why choose",
@@ -166,25 +166,26 @@ export const translations = {
     faq: {
       heading: "FAQ",
       headingHighlight: "Seedance 2.0",
-      subtitle: "Common questions about Seedance 2.0 capabilities and availability.",
+      subtitle: "Common questions about Seedance 2.0 AI video generator capabilities and availability.",
       items: [
-        { q: "What is Seedance 2.0?", a: "Seedance 2.0 is a multimodal AI video model for creating richer, reference-driven video outputs." },
-        { q: "What inputs does Seedance 2.0 support?", a: "It supports text, images, video, and audio inputs in supported workflows." },
-        { q: "Can Seedance 2.0 generate video with audio?", a: "Yes, public descriptions emphasize native audio or audio-aware generation." },
-        { q: "Is Seedance 2.0 good for multi-shot storytelling?", a: "Yes, it is often positioned for richer scene structure and multi-shot video generation." },
-        { q: "Can I use image and video references together?", a: "In supported workflows, Seedance 2.0 is positioned as a multimodal model that can combine multiple reference types." },
-        { q: "Is Seedance 2.0 available via API?", a: "BytePlus currently states that Seedance 2.0 is available via Model Playground and does not support API invocation at this time." },
-        { q: "What is the difference between Seedance 1.5 Pro and Seedance 2.0?", a: "Seedance 2.0 is generally positioned with broader multimodal input and richer storytelling workflows, while Seedance 1.5 Pro is more often framed around strong base video quality and audio-video generation." },
-        { q: "Who should use Seedance 2.0?", a: "It is a good fit for creators, marketers, product teams, and storytellers who want more than a simple text-to-video workflow." },
+        { q: "What is Seedance 2.0?", a: "Seedance 2.0 is a multimodal AI video model developed by ByteDance for creating cinematic, reference-driven video outputs. As a next-generation AI video generator, it supports text, image, video, and audio inputs in a single workflow." },
+        { q: "Is Seedance 2.0 free to use?", a: "Yes, Seedance 2.0 is currently free to use during its open beta. You can try Seedance 2.0 free on the Rita platform — no credit card required to start generating AI videos." },
+        { q: "Is Seedance 2.0 made by ByteDance?", a: "Yes, Seedance 2.0 is an AI video generation model developed by ByteDance. It builds on ByteDance's research in multimodal AI and video synthesis technology." },
+        { q: "What inputs does the Seedance 2.0 AI video tool support?", a: "Seedance 2.0 AI video tool supports text prompts, image references, video references, and audio inputs — all combinable in a single generation workflow." },
+        { q: "Can Seedance 2.0 generate video with audio?", a: "Yes, Seedance 2.0 features native audio-visual generation. Unlike other AI video generators, sound is generated alongside video rather than added separately." },
+        { q: "Is Seedance 2.0 good for multi-shot storytelling?", a: "Yes, Seedance 2.0 AI video model excels at multi-shot video generation with richer scene structure and character consistency across shots." },
+        { q: "How does Seedance 2.0 compare to other AI video generators?", a: "Compared to Sora and Veo 3, Seedance 2.0 AI video generator offers broader multimodal inputs, native audio generation, and stronger complex motion performance — and it's free to use." },
+        { q: "What is the difference between Seedance 1.5 Pro and Seedance 2.0?", a: "Seedance 2.0 offers broader multimodal input support and richer storytelling workflows, while Seedance 1.5 Pro focuses on strong base video quality and audio-video generation." },
+        { q: "Who should use Seedance 2.0 AI video generation?", a: "Seedance 2.0 is ideal for creators, marketers, product teams, and storytellers who need more than a simple text-to-video AI tool — especially those seeking multimodal inputs and cinematic quality." },
       ],
     },
     cta: {
       heading: "Ready to create with",
       headingHighlight: "Seedance 2.0",
-      subtitle: "Turn your ideas, references, and audio into high-quality AI video.",
-      btn1: "Try Seedance 2.0 on Rita",
-      btn2: "See Video Examples",
-      note: "Best for multimodal video generation, audio-aware workflows, and multi-shot storytelling.",
+      subtitle: "Turn your ideas, references, and audio into high-quality AI videos — free.",
+      btn1: "Try Seedance 2.0 Free on Rita",
+      btn2: "See Seedance 2.0 Videos",
+      note: "Seedance 2.0 AI video generator — free for multimodal video generation, audio-aware workflows, and multi-shot storytelling.",
     },
     footer: {
       tagline: "Multimodal AI video generation.",
