@@ -202,8 +202,8 @@ export const translations = {
   },
   zh: {
     lang: "zh",
-    siteTitle: "Seedance 2.0 AI 视频生成器 — 多模态文本、图片与音频生成视频",
-    siteDescription: "使用 Seedance 2.0 创建电影感 AI 视频。结合文本、图片、视频和音频输入，支持原生音频协同生成、角色一致性和多镜头叙事。",
+    siteTitle: "Seedance 2.0 AI 视频生成器 | 免费 AI 视频生成工具 — 字节跳动出品",
+    siteDescription: "Seedance 2.0 是字节跳动推出的免费 AI 视频生成器和 AI 视频模型。支持文本、图片、视频和音频多模态输入，原生音频协同生成、角色一致性和多镜头叙事。立即免费体验 Seedance 2.0。",
     nav: {
       howItWorks: "使用方法",
       examples: "示例",
@@ -213,10 +213,10 @@ export const translations = {
     },
     hero: {
       tags: ["多模态输入", "原生音频", "角色一致性", "多镜头视频"],
-      h1: "Seedance 2.0：视频生成的全新时代",
-      subtitle: "使用文本、图片、视频和音频输入生成电影感 AI 视频，支持原生音频、更强角色一致性和多镜头叙事。",
+      h1: "Seedance 2.0：免费 AI 视频生成器 — 字节跳动出品",
+      subtitle: "Seedance 2.0 是一款免费 AI 视频生成工具，支持文本、图片、视频和音频多模态输入，具备原生音频生成、角色一致性和多镜头叙事能力。",
       
-      cta2: "在 Rita 体验 Seedance 2.0",
+      cta2: "免费体验 Seedance 2.0",
       placeholder: "描述任何视觉创意，我们将为您生成视频。",
     },
     features: {
