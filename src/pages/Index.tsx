@@ -33,7 +33,7 @@ function buildJsonLd(lang: "en" | "zh", t: any) {
     {
       "@type": "SoftwareApplication",
       "@id": `${currentUrl}#software`,
-      name: "Seedance 2.0",
+      name: "Seedance 2.0 AI Video Generator",
       applicationCategory: "MultimediaApplication",
       operatingSystem: "Web",
       description: t.siteDescription,
