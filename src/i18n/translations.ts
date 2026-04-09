@@ -220,9 +220,9 @@ export const translations = {
       placeholder: "描述任何视觉创意，我们将为您生成视频。",
     },
     features: {
-      heading: "WHY SEEDANCE 2.0 STANDS OUT",
-      subtitle: "Seedance 2.0 将多模态输入、原生音视频生成、更丰富的创意控制和更强的复杂运动表现融入单一视频创作工作流。",
-      cta: "在 Rita 体验 Seedance 2.0",
+      heading: "WHY SEEDANCE 2.0 AI VIDEO MODEL STANDS OUT",
+      subtitle: "作为领先的 AI 视频生成工具，Seedance 2.0 将多模态输入、原生音视频生成、更丰富的创意控制和更强的复杂运动表现融入单一工作流。",
+      cta: "免费体验 Seedance 2.0",
       items: [
         {
           title: "统一多模态输入",
@@ -251,17 +251,17 @@ export const translations = {
       ],
     },
     whatIs: {
-      heading: "轻松生成最长 15 秒视频",
+      heading: "SEEDANCE 2.0 AI 视频生成 3 步完成",
       steps: [
         { step: "步骤 1", title: "上传参考图片", desc: "上传参考图片来引导你的创意方向" },
         { step: "步骤 2", title: "编写提示词", desc: "用自然语言描述你想要的场景和声音" },
-        { step: "步骤 3", title: "用 SEEDANCE 2.0 生成", desc: '点击"生成"按钮，几秒内获得高质量视频。' },
+        { step: "步骤 3", title: "用 SEEDANCE 2.0 生成", desc: '点击"生成"按钮，几秒内免费获得高质量 AI 视频。' },
       ],
     },
     benefits: {
       comparison: {
-        heading: "SEEDANCE 2.0 VS. SORA VS. VEO 3",
-        subtitle: "查看 Seedance 2.0 与 Sora、Veo 的详细对比表。",
+        heading: "SEEDANCE 2.0 AI 视频生成器 VS. SORA VS. VEO 3",
+        subtitle: "查看 Seedance 2.0 AI 视频模型与 Sora、Veo 3 的详细对比。",
         featureLabel: "功能",
         products: [
           { name: "Seedance 2.0", company: "" },
@@ -274,14 +274,14 @@ export const translations = {
           { feature: "参考输入", values: ["图片、视频、音频", "图片、视频", "文本、图片、初始重建*"] },
           { feature: "运动表现", values: ["强大的复杂运动稳定性", "复杂运动为主", "标准运动表现"] },
           { feature: "核心优势", values: ["多模态原生音视频一体生成", "自然一致的运动", "单镜头和长视频"] },
-          { feature: "可用性", values: ["公开测试 (2024)", "有限预览候补", "有限实验室访问"] },
+          { feature: "可用性", values: ["免费公开测试 (2024)", "有限预览候补", "有限实验室访问"] },
         ],
         footnote: "*仅限特定场景控制。",
-        cta: "在 Rita 体验 Seedance 2.0",
+        cta: "免费体验 Seedance 2.0",
       },
       reviews: {
-        heading: "Seedance 2.0 用户评价：创作者怎么说",
-        subtitle: "更可控、多模态、可投入生产的 AI 视频模型。",
+        heading: "Seedance 2.0 AI 视频工具评测：创作者怎么说",
+        subtitle: "更可控、多模态、可投入生产的 AI 视频生成模型。",
         trusted: "全球 5,000+ 创作者的选择",
         items: [
           { title: "终于有一个能听懂创意指令的 AI 视频工具了", body: "我几乎测试过市面上所有 AI 视频生成器。Seedance 2.0 是第一个让我的参考图片和提示词真正转化为预期效果的工具。多模态输入系统对于认真做创作的人来说是颠覆性的。", name: "Alex Chen", initials: "AC" },
@@ -345,10 +345,10 @@ export const translations = {
     examples: {
       heading: "Gallery",
       headingHighlight: "Seedance 2.0",
-      subtitle: "看看不同输入组合如何影响最终结果。",
+      subtitle: "查看 Seedance 2.0 AI 视频生成的不同输入组合效果。",
       tags: ["仅文本", "文本 + 图片", "图片 + 音频", "视频 + 音频", "角色叙事", "多镜头视频"],
       preview: "视频预览",
-      cta: "在 Rita 体验 Seedance 2.0",
+      cta: "免费体验 Seedance 2.0",
     },
     whyChoose: {
       heading: "为什么选择",
@@ -365,25 +365,26 @@ export const translations = {
     faq: {
       heading: "常见问题",
       headingHighlight: "Seedance 2.0",
-      subtitle: "关于 Seedance 2.0 功能和可用性的常见问题。",
+      subtitle: "关于 Seedance 2.0 AI 视频生成器功能和可用性的常见问题。",
       items: [
-        { q: "什么是 Seedance 2.0？", a: "Seedance 2.0 是一款多模态 AI 视频模型，用于创建更丰富的、以参考素材驱动的视频输出。" },
-        { q: "Seedance 2.0 支持哪些输入？", a: "在支持的工作流中，它支持文本、图片、视频和音频输入。" },
-        { q: "Seedance 2.0 能生成带音频的视频吗？", a: "可以，公开描述强调原生音频或音频感知生成。" },
-        { q: "Seedance 2.0 适合多镜头叙事吗？", a: "适合，它通常被定位为支持更丰富场景结构和多镜头视频生成的模型。" },
-        { q: "可以同时使用图片和视频参考吗？", a: "在支持的工作流中，Seedance 2.0 被定位为可以组合多种参考类型的多模态模型。" },
-        { q: "Seedance 2.0 支持 API 调用吗？", a: "BytePlus 目前表示 Seedance 2.0 可通过 Model Playground 使用，暂不支持 API 调用。" },
-        { q: "Seedance 1.5 Pro 和 Seedance 2.0 有什么区别？", a: "Seedance 2.0 通常被定位为具有更广泛的多模态输入和更丰富的叙事工作流，而 Seedance 1.5 Pro 更侧重于高质量基础视频和音视频生成。" },
-        { q: "谁适合使用 Seedance 2.0？", a: "它适合创作者、营销人员、产品团队和叙事者，适合那些需要超越简单文本转视频工作流的用户。" },
+        { q: "什么是 Seedance 2.0？", a: "Seedance 2.0 是字节跳动（ByteDance）开发的多模态 AI 视频模型，用于创建电影感、参考素材驱动的视频输出。作为新一代 AI 视频生成器，它支持在单一工作流中使用文本、图片、视频和音频输入。" },
+        { q: "Seedance 2.0 可以免费使用吗？", a: "可以，Seedance 2.0 目前在公测期间免费使用。你可以在 Rita 平台免费体验 Seedance 2.0 AI 视频生成——无需信用卡即可开始。" },
+        { q: "Seedance 2.0 是字节跳动开发的吗？", a: "是的，Seedance 2.0 是字节跳动（ByteDance）开发的 AI 视频生成模型，基于字节跳动在多模态 AI 和视频合成技术方面的研究成果。" },
+        { q: "Seedance 2.0 AI 视频工具支持哪些输入？", a: "Seedance 2.0 AI 视频工具支持文本提示词、图片参考、视频参考和音频输入——所有类型均可在一次生成中组合使用。" },
+        { q: "Seedance 2.0 能生成带音频的视频吗？", a: "可以，Seedance 2.0 具备原生音视频协同生成能力。与其他 AI 视频生成器不同，声音与视频同步生成，而非后期添加。" },
+        { q: "Seedance 2.0 适合多镜头叙事吗？", a: "适合，Seedance 2.0 AI 视频模型在多镜头视频生成方面表现出色，支持更丰富的场景结构和跨镜头角色一致性。" },
+        { q: "Seedance 2.0 与其他 AI 视频生成器相比如何？", a: "与 Sora 和 Veo 3 相比，Seedance 2.0 AI 视频生成器提供更广泛的多模态输入、原生音频生成和更强的复杂运动表现——而且免费使用。" },
+        { q: "Seedance 1.5 Pro 和 Seedance 2.0 有什么区别？", a: "Seedance 2.0 提供更广泛的多模态输入支持和更丰富的叙事工作流，而 Seedance 1.5 Pro 更侧重于高质量基础视频和音视频生成。" },
+        { q: "谁适合使用 Seedance 2.0 AI 视频生成？", a: "Seedance 2.0 适合创作者、营销人员、产品团队和叙事者——特别是那些需要多模态输入和电影级质量的用户，而不仅仅是简单的文本转视频 AI 工具。" },
       ],
     },
     cta: {
       heading: "准备开始用",
       headingHighlight: "Seedance 2.0",
-      subtitle: "把你的创意、参考素材和音频输入，转换成高质量 AI 视频。",
-      btn1: "在 Rita 体验 Seedance 2.0",
-      btn2: "查看视频示例",
-      note: "适合多模态视频生成、带音频工作流和多镜头叙事。",
+      subtitle: "把你的创意、参考素材和音频输入，转换成高质量 AI 视频——免费使用。",
+      btn1: "免费体验 Seedance 2.0",
+      btn2: "查看 Seedance 2.0 视频",
+      note: "Seedance 2.0 AI 视频生成器——免费支持多模态视频生成、音频工作流和多镜头叙事。",
     },
     footer: {
       tagline: "多模态 AI 视频生成。",
