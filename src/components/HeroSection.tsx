@@ -24,7 +24,7 @@ export default function HeroSection() {
     <section className="relative w-full h-screen overflow-hidden flex items-center justify-center" aria-labelledby="hero-heading">
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="https://static.gamsgocdn.com/local/671678/2/1040/1120/wmyfqbxckuh8syes-0/957d1d8c8937e0d9bc50d7960519e12f.mp4"
+        src="https://static.gamsgocdn.com/local/671678/2/1040/1120/ntu4j4djqkhbt2kq-0/3d687524c0b09c367635b8dcef07836b.mp4"
         autoPlay
         loop
         muted
